@@ -10,3 +10,11 @@ humburger.addEventListener("click",()=>{
   humburger.classList.toggle("max-cross")
 
 })
+
+navbar.addEventListener("click",()=>{
+
+  navbar.classList.remove("hide-show-navbar");
+
+  humburger.classList.remove("max-cross")
+
+})
